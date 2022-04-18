@@ -1,0 +1,814 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); 
+ 
+ 
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+.section1{ 
+    background-size: cover; 
+    width:100%; 
+    
+} 
+.firstdiv{ 
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 3%; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+} 
+.leftside{ 
+    display: flex; 
+    gap:10px; 
+    align-items: center;
+} 
+li{ 
+    list-style-type: none; 
+} 
+ 
+.future{ 
+    display: flex; 
+    color: #FFFFFF; 
+    gap: 59px; 
+    font-size: 16px; 
+} 
+.rightside{ 
+    display: none; 
+} 
+/* .tehsil{ 
+    position: absolute; 
+    top: 28px; 
+    left: 266px; 
+} */ 
+.kurs{ 
+    color: #30FFCD; 
+    font-family: 'Oswald', sans-serif; 
+    font-weight: bold; 
+    font-size: 64px; 
+    width: 500px; 
+    text-transform: uppercase; 
+} 
+.developer{ 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    font-size: 18px; 
+    color: #FFFFFF; 
+    width: 598px; 
+} 
+.gradient{ 
+    display: none; 
+} 
+.fevral{ 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    font-size: 18px; 
+    line-height: 20px; 
+    color: #FFFFFF; 
+    border-bottom: yellow dashed 2px; 
+ 
+} 
+.son{ 
+    display: none; 
+} 
+.telebe{ 
+    padding-top: 12%; 
+    margin-left: 10%; 
+    padding-bottom: 8%; 
+} 
+.ugur{ 
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 5%; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+} 
+.gelecek{ 
+    font-family: Oswald; 
+    font-weight: bold; 
+    font-size: 47px; 
+    text-transform: uppercase; 
+    color: #382459; 
+    letter-spacing: 3px; 
+} 
+.anket{ 
+    width: 224px; 
+    height: 48px; 
+    background: #FF1DC0; 
+    border-radius: 48px; 
+    color: #FFFFFF; 
+    align-items: center; 
+    text-align: center; 
+    font-size: 15.0508px; 
+    font-weight: 600; 
+    margin-top: 1%; 
+} 
+.adnsu{ 
+    display: flex; 
+    justify-content:space-between; 
+    padding-top: 10%; 
+    margin-left: 10%; 
+    margin-right: 20%; 
+} 
+.junior{ 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    font-size: 25px; 
+    width: 255px; 
+    color: #382459; 
+} 
+.program{ 
+    font-family: Montserrat; 
+    font-style: normal; 
+    font-weight: 50; 
+    font-size: 16px; 
+    color: #382459; 
+} 
+.uni{ 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    font-size: 25px; 
+    color: #382459; 
+    width: 368px; 
+} 
+.tecrube{ 
+    font-family: Montserrat; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 16px; 
+} 
+.anket1{ 
+    display: none; 
+} 
+.section3{ 
+    background-image: url(./picture/Rectangle\ 1218.png); 
+    background-size: cover; 
+    width: 100%; 
+    margin-top: 10%; 
+    background-color: #382459;
+} 
+.purple{ 
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 8%; 
+    margin-left: 10%; 
+    margin-right: 29%; 
+} 
+.percent{ 
+    font-family: Oswald; 
+    font-weight: 500; 
+    font-size: 40px; 
+    letter-spacing: 0.03em; 
+    text-transform: uppercase; 
+    color: #30FFCD; 
+} 
+.percent1{ 
+    font-family: Oswald; 
+    font-weight: 500; 
+    font-size: 40px; 
+    letter-spacing: 0.03em; 
+    text-transform: uppercase; 
+    color: #30FFCD; 
+    padding-right: 100px; 
+} 
+.vakansiya{ 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    font-size: 16px; 
+    color: #FFFFFF; 
+} 
+a{ 
+    text-decoration: none;
+
+color: #FFFFFF; 
+} 
+.link{ 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    font-size: 10.0042px; 
+    opacity: 0.62; 
+    color: #FFFFFF; 
+} 
+.purple1{ 
+    display: flex; 
+    justify-content: space-between; 
+    margin-left: 10%; 
+    margin-right: 25%; 
+    padding-top: 5%; 
+    padding-bottom: 6%; 
+} 
+.img{ 
+    position: absolute; 
+    top: 1900px; 
+    left: 1050px; 
+} 
+.tedris{ 
+    font-family: Oswald; 
+    font-weight: bold; 
+    font-size: 47px; 
+    letter-spacing:3px; 
+    text-transform: uppercase; 
+    color: #382459; 
+    padding-top: 7%; 
+    margin-left: 8%; 
+} 
+.inkisaf{ 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    font-size: 25px; 
+    color: #382459; 
+} 
+.keys{ 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    font-size: 16px; 
+    color: #382459; 
+} 
+.destek{ 
+    display: flex; 
+    justify-content: space-around; 
+    padding-top: 8%; 
+    margin-left: 5%; 
+    margin-right: 7%; 
+    padding-bottom: 10%; 
+} 
+ 
+.section6{ 
+    position: relative; 
+    width: 100%; 
+    background-color: white; 
+} 
+.section5{ 
+    
+    background-size: cover; 
+    background-color: #382459;
+    width: 100%; 
+    z-index: 1; 
+} 
+.js{ 
+    display: none; 
+} 
+.algoritmika{ 
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 9%; 
+    margin-left: 10%; 
+    margin-right: 20%; 
+    padding-bottom: 10%; 
+} 
+.umumi{ 
+    padding-top: 5%; 
+    padding-bottom: 10%; 
+    margin-left: 5%; 
+    margin-right: 7%; 
+} 
+.sistem{ 
+    font-family: Oswald; 
+    font-weight: 500; 
+    font-size: 40px; 
+    letter-spacing: 0.03em; 
+    text-transform: uppercase; 
+    color: #30FFCD; 
+} 
+.web{ 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    font-size: 16px; 
+    color: #FFFFFF; 
+} 
+.programi{ 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    font-size: 16px; 
+    text-align: center; 
+    letter-spacing: 0.02em; 
+    color: #30FFCD; 
+    border: 2px solid #33DFC0; 
+    box-sizing: border-box; 
+    border-radius: 48px; 
+    width: 192px; 
+    height: 38px; 
+    padding-top: 7px; 
+ 
+} 
+.sertler{ 
+    padding-top: 9%; 
+    margin-left: 10%; 
+    padding-bottom: 8%; 
+} 
+.neft{ 
+    font-family: Oswald; 
+    font-weight: bold; 
+    font-size: 47px; 
+    letter-spacing: 3px; 
+    text-transform: uppercase; 
+    color: #382459; 
+} 
+.erize{ 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    font-size: 16px; 
+    color: #382459; 
+} 
+.group5001{ 
+    position:absolute; 
+    top: -90px; 
+    right: 5px; 
+} 
+.section7{ 
+    position: relative; 
+ height: 570px;
+    background-image: url(./picture/Rectangle\ 1354.png); 
+    background-size: cover ; 
+    width: 100%; 
+    z-index: 2; 
+} 
+ 
+.section8{ 
+    width: 100%; 
+    background-color: white; 
+} 
+.anket2{ 
+    width: 224px; 
+    height: 48px; 
+    background: #FF1DC0; 
+    border-radius: 48px; 
+    color: #FFFFFF; 
+    align-items: center; 
+    text-align: center; 
+    font-size: 15.0508px; 
+    font-weight: 600; 
+    margin-top: 1%; 
+} 
+ 
+ 
+.purple3{ 
+    display: flex; 
+    align-items: center; 
+    margin-left: 5%; 
+    padding-top: 3%; 
+} 
+.muraciet{ 
+    font-family: Oswald; 
+    font-weight: bold; 
+    font-size: 47px; 
+    letter-spacing:3px; 
+    text-transform: uppercase; 
+    color: #30FFCD; 
+    width: 410px; 
+} 
+.musahibe{ 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    font-size: 16px; 
+    color: #FFFFFF; 
+    width: 448px; 
+} 
+.elaqe{ 
+    display: flex; 
+    justify-content: space-around; 
+    padding-top: 8%; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    gap: 30%; 
+    padding-bottom: 8%; 
+} 
+.union{ 
+    display:flex; 
+    flex-direction: column; 
+} 
+.insta{ 
+    width: 19px; 
+    height: 21px; 
+} 
+.insta1{ 
+    padding-top: 20%; 
+} 
+.fevral11{ 
+    padding-top: 11%; 
+} 
+.code{ 
+    display: flex; 
+    gap: 23%; 
+} 
+.phone{ 
+    font-family: Montserrat; 
+    font-weight: bold; 
+    font-size: 16px; 
+    color: #382459; 
+    letter-spacing: 1px; 
+} 
+.azii{ 
+    margin-left: 16%; 
+} 
+.fevral1{ 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    font-size: 16px; 
+    color: #382459;
+ 
+    width: 288px; 
+} 
+ 
+@media (max-width:600px){ 
+    body{  
+        margin: 0;  
+        padding: 0;  
+        box-sizing: border-box;  
+    }  
+    .section1{  
+        background-image: url(./picture/image\ 2.png); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        height: 442px; 
+        width: 80%; 
+        position: relative;  
+    }  
+    .firstdiv{
+        width: 40%;
+        height: 10%;
+    }
+    .section1::before{ 
+        background-image:url(./picture/Rectangle\ 994.png); 
+        width: 100%; 
+        height:443px; 
+        position: absolute; 
+        content: ""; 
+        z-index: 1; 
+    } 
+    .telebe{ 
+        z-index: 1; 
+        position: absolute; 
+        content: ""; 
+    } 
+    .codefuture , .nomre{ 
+        display: none; 
+    } 
+    .leftside{ 
+        padding-top: 1%; 
+    } 
+    .rightside{ 
+        display:inline 
+    } 
+    .dovlet, .tehsil{ 
+        display: none; 
+    } 
+    .firstdiv{ 
+        display: flex;  
+        justify-content: space-between;  
+        margin-right: 5%;  
+        margin-left: 5%; 
+        align-items: center;  
+        padding-top: 5%;  
+        position: relative; 
+    } 
+    .kurs{ 
+        font-family: Oswald;  
+        font-weight: bold;  
+        font-size: 28px;  
+        letter-spacing: 2px;  
+        text-transform: uppercase;  
+        color: #30FFCD; 
+        width: 230px; 
+        padding: 0; 
+ 
+    } 
+    .developer{ 
+        font-family: Montserrat;  
+        font-weight: normal;  
+        font-size: 13px;  
+        color: #FFFFFF;  
+        width: 282px; 
+    } 
+    .gradient{ 
+        display: block; 
+        background-color: #382459; 
+        width: 100%; 
+        height: 400px; 
+        margin-top:75% 
+    } 
+    .fevral{ 
+        font-family: Montserrat;  
+        font-weight: 600;  
+        font-size: 17px;  
+        color: #FFFFFF;  
+        border-bottom: 1px dashed #FFE920;  
+    } 
+    .son{ 
+        display: flex; 
+        padding-top: 18%; 
+        /* padding-bottom:5%; */ 
+        margin-left: 1%; 
+        gap: 30px; 
+    } 
+    .adnsu1{ 
+        width: 84px; 
+        height: 16px; 
+        margin-top: 7%; 
+    } 
+    .telebe{ 
+        padding-top: 50%; 
+        margin-left: 5%; 
+        margin-right: 3%; 
+        padding-bottom: 10%; 
+    } 
+    .anket{ 
+        display: none; 
+    } 
+    .gelecek{ 
+        font-family: Oswald; 
+        font-style: normal; 
+        font-weight: bold; 
+        font-size: 25px; 
+        letter-spacing: 0.03em; 
+        text-transform: uppercase; 
+        color: #382459; 
+        padding-top: 15%; 
+    } 
+    .ugur{ 
+        padding-top: 90%; 
+    } 
+    .adnsu{ 
+        display: block; 
+    } 
+    .junior{ 
+        font-family: Montserrat; 
+        font-style: normal; 
+        font-weight: 600; 
+        font-size: 18px; 
+        color: #382459; 
+        width: 189px; 
+    } 
+    .program{ 
+        font-family: Montserrat; 
+        font-style: normal; 
+        font-weight: 500; 
+        font-size: 13px; 
+        color: #382459; 
+        width: 256px 
+    } 
+    .uni{ 
+        font-family: Montserrat; 
+        font-style: normal; 
+        font-weight: 600; 
+        font-size: 18px; 
+        color: #382459; 
+        width: 260px; 
+    } 
+    .tecrube{ 
+        font-family: Montserrat; 
+        font-style: normal; 
+        font-weight: 500; 
+        font-size: 13px; 
+        color: #382459; 
+        width: 248px; 
+    } 
+    .pam{ 
+        padding-top: 5%; 
+    } 
+    .itif{ 
+        padding-top: 20%; 
+    } 
+    .anket1{ 
+        display:inline; 
+        width: 194px; 
+        height: 44px; 
+        background: #FF1DC0; 
+        border-radius: 48px; 
+        color: #FFFFFF; 
+        align-items: center; 
+        text-align: center; 
+        font-size: 15.0508px; 
+        font-weight: 600; 
+        margin-top: 1%; 
+    } 
+    .button1{ 
+        padding-top: 10%; 
+        margin-left: 6%; 
+        padding-bottom: 15%; 
+    } 
+    .purple{ 
+        display: block; 
+        padding-top: 15%; 
+        margin-left: 8%; 
+    } 
+    .purple1{ 
+        display: block; 
+        /* padding-top: 5%; */
+margin-left: 8%; 
+        padding-bottom: 24%; 
+    } 
+    .percent , .percent1{ 
+        padding-top: 10%; 
+        font-size: 40px; 
+    } 
+    .link{ 
+        padding-bottom: 5%; 
+        font-size: 10px; 
+    } 
+    .vakansiya{ 
+        font-size: 14px; 
+        width: 256px; 
+    } 
+    .img{ 
+        position: absolute; 
+        width: 80px; 
+        height: 107.08px; 
+        left: 239px; 
+        top: 2614px; 
+    } 
+    .tedris{ 
+        font-family: Oswald; 
+        font-style: normal; 
+        font-weight: bold; 
+        font-size: 24px; 
+        letter-spacing: 2px; 
+        text-transform: uppercase; 
+        color: #382459; 
+        padding-top: 18%; 
+    } 
+    .destek{ 
+        display: block; 
+        margin-left: 8%; 
+        padding-bottom: 12%; 
+    } 
+    .inkisaf{ 
+        padding-top: 5%; 
+        font-size: 20px; 
+        width: 252px; 
+    } 
+    .keys{ 
+        padding-bottom: 4%; 
+        font-size: 13px; 
+    } 
+    .algoritmika{ 
+        display: none; 
+ 
+    } 
+    .js{ 
+        display: block; 
+    } 
+    .kurssecin{ 
+        font-family: Oswald; 
+        font-weight: bold; 
+        font-size: 24.7px; 
+        letter-spacing: 0.03em; 
+        text-transform: uppercase; 
+        color: #30FFCD; 
+    } 
+    .kurssecin1{ 
+        padding-top: 15%; 
+        margin-left: 6%; 
+    } 
+    .star{ 
+        font-family: Montserrat; 
+        font-weight: 500; 
+        font-size: 13px; 
+        color: #FFFFFF; 
+        margin-left: 4%; 
+        padding-bottom: 20%; 
+    } 
+    .star1 , .star2 , .star3 , .star4 { 
+        display: flex; 
+        gap: 10px; 
+        padding-bottom: 7%; 
+    } 
+    .star4{ 
+        padding-bottom: 12%; 
+    } 
+    .star11{ 
+        width: 11px; 
+        height: 11px; 
+        margin-top: 1%; 
+    } 
+    .star1 p { 
+        width:  274px; 
+    } 
+    .star2 p { 
+        width: 255px; 
+    } 
+    .star3 p{ 
+        width: 270px; 
+    } 
+    .star4 p{ 
+        width: 239px; 
+    } 
+    .programi1{ 
+        font-family: Montserrat; 
+        font-weight: 500; 
+        font-size: 13px; 
+        text-align: center; 
+        letter-spacing: 0.02em; 
+        color: #30FFCD; 
+        border: 2px solid #33DFC0; 
+        box-sizing: border-box; 
+        border-radius: 48px; 
+        width: 135px; 
+        height: 38px; 
+        padding-top: 2%; 
+    } 
+    /*  
+        Section 5 ----- 
+        ------------ 
+    */ 
+    .group5001{ 
+        display: none; 
+    } 
+    .sertler{ 
+        margin-left: 8%; 
+        padding-top: 20%; 
+        padding-bottom: 25%; 
+    } 
+    .neft{ 
+        font-family: Oswald; 
+        font-style: normal; 
+        font-weight: bold; 
+        font-size: 24.7px; 
+        letter-spacing: 0.03em; 
+        text-transform: uppercase; 
+        color: #382459; 
+    } 
+    .erize{ 
+        font-family: Montserrat; 
+        font-style: normal; 
+        font-weight: 500; 
+        font-size: 14px; 
+        color: #382459; 
+    } 
+    .purple3{ 
+        display: block; 
+        padding-bottom: 20%; 
+    } 
+     .group1810{ 
+        position: absolute; 
+        width: 320.57px; 
+        height: 320.57px; 
+        left: 37px; 
+        top: -81px; 
+        z-index: -1; 
+        /* left: 44px; 
+        top: 2536.25px; */ 
+    }  
+    .muraciet{ 
+        font-family: Oswald; 
+        font-style: normal; 
+        font-weight: bold; 
+        font-size: 24.7px; 
+        letter-spacing: 2px; 
+        text-transform: uppercase; 
+        color: #30FFCD; 
+        width: 295.68px; 
+    } 
+    .musahibe{ 
+        font-family: Montserrat; 
+        font-style: normal; 
+        font-weight: 500; 
+        font-size: 13px; 
+        color: #FFFFFF; 
+        width: 265.86px; 
+    } 
+    .padding7{ 
+        margin-left: 5%; 
+        padding-top: 41%; 
+    } 
+    .elaqe{ 
+        display: block; 
+        padding-top: 20%; 
+        margin-left: 10%; 
+        padding-bottom: 10%; 
+    } 
+    .code{ 
+        display: block; 
+    } 
+    .union{ 
+        display:flex; 
+        flex-direction: row; 
+        gap: 7%; 
+        padding-bottom: 9%; 
+    } 
+    .imageunion{ 
+        width: 120px; 
+        height: 27.45px; 
+    } 
+    .insta1{ 
+        padding: 0; 
+    } 
+    .azii{ 
+        margin-left: 6%; 
+        padding-top: 20%; 
+    } 
+    .fevral11{ 
+        margin-top: -5%; 
+        margin-right: 3%; 
+    } 
+} 
+@media screen and (max-width:1110px){
+    
+    .kurs{
+        width: 256px;
+    }
+}
